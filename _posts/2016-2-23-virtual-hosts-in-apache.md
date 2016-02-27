@@ -7,7 +7,7 @@ In this post we will look at how we can configure a virtual host in Apache 2.4.
 I am assuming you are using Windows OS
 
 ### Installing Apache 2.4
-You should already have Apache setup manually. If you havent done it, here are the steps.
+You should already have Apache server setup manually. If you haven't done it, here are the steps.
 
 a. Download the apache binaries from [Apache Lounge](https://www.apachelounge.com/download/)
 
@@ -23,11 +23,11 @@ b. Unzip it and place the Apache24 directory in your C drive
   |-REEADME.txt
   </pre>
 
-c. In case you get the `Unable to start the program as VCRUNTIME140.dll is missing on your computer.` ERROR you can download and install the C++ Redistributable for Visual Studio 2015 RC from [here](http://www.microsoft.com/en-us/download/details.aspx?id=48145)
+c. In case you get the `Unable to start the program as VCRUNTIME140.dll is missing on your computer.` ERROR, you can download and install the C++ Redistributable for Visual Studio 2015 RC from [here](http://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 d. Now navigate to the `bin` folder under `Apache24` and run/execute `httpd.exe`
 
-e. Open your browser and load 127.0.0.1. If all went well you shouls see `It Works` in your screen.
+e. Open your browser and load 127.0.0.1. If all went well you should see `It Works` in your screen.
 
 ### Configuring a Virtual Host
 
@@ -45,7 +45,7 @@ Add the below lines at the end of the file
 
 {% endhighlight %}
 
-> The document root will specify the path from where your files will be loaded to the server
+> The `DocumentRoot` will specify the path from where your files will be loaded to the server
 
 ### Configuring hosts file
 Open the hosts file located at `C:\Windows\System32\drivers\etc\hosts`
