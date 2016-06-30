@@ -28,7 +28,7 @@ header("Location: http://www.php.net/");
 
 [RFC 3875](https://tools.ietf.org/html/rfc3875#section-6.2.3) says that if the script returns an absolute URI path in a Location header field together with an attached document. The Status header field MUST be supplied and MUST contain a status value of 302 'Found', or it MAY contain an extension-code, that is, another valid status code that means client redirection.
 
-All the above being said. I kind of side with a comment in this thread 
+All the above being said. I kind of side with a comment in [this](https://bugs.php.net/bug.php?id=70273) thread 
 To quote it 
 {% highlight php %}
 Further - the REST specification has chosen to set the status 202+Location under some circumstances. That is perfectly valid with the HTTP specification too, because the Location header is not bound to any specific status.
