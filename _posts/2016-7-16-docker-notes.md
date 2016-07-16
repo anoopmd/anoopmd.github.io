@@ -52,3 +52,7 @@ Running a web application in Docker
 2. docker run -d -p 80:5000 training/webapp python app.py
    (This would map port 5000 inside our container to port 80 on our local host)
    You should See Hello World
+
+Installing Docker Compose
+1. sudo apt-get install python-pip
+2. sudo pip install docker-compose
