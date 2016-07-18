@@ -23,5 +23,16 @@ title: Cron Job Notes
 5,10    0        10        *     1 Every Monday and 10th of Every Month at 00:05 and 00:10
 </pre>
 
+### Creating a Cron Job
+sudo crontab -e 
+sudo VISUAL=vim crontab -e (To open in Vim) 
+Save your Cron Jobs here
+Ex : * * * * * COMMAND
+
+### Online Testing
+[Cron WTF] (http://cronwtf.github.io/)
+
 ### Reference
-[Cron Tab Quick Reference](http://www.adminschoice.com/crontab-quick-reference)
+[Cron Tab Quick Reference](http://www.adminschoice.com/crontab-quick-reference) <br>
+[Ubuntu 14.04](https://vexxhost.com/resources/tutorials/how-to-use-cron-jobs-for-automation-on-ubuntu-14-04/) <br>
+[Short Introduction](https://www.howtoforge.com/a-short-introduction-to-cron-jobs) <br>

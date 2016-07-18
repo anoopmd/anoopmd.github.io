@@ -29,7 +29,7 @@ Configure Satis<br>
     }
   ],
   "require": {
-  	"laravel/lumen" : "2.3.*"
+  	"laravel/lumen" : "*"
   }
 }
 {% endhighlight %}
@@ -42,3 +42,18 @@ Now Open 127.0.0.1 in your browser
 If everything went well, you must see the page similar to the below one
 
 <img src="{{ site.baseurl }}/images/Satis.png" style="width: 400px;"/>
+
+### Setting up a Cron Job
+Lets schedule a Cron Job that Builds Satis at specific intervals
+
+`crontab -e`
+
+Add the below line to schedule the Satis Build for every 5 min.
+
+`*/5 * * * * php /usr/share/nginx/satis/bin/satis build /usr/share/nginx/satis.json /usr/share/nginx/html/`
+
+Restart your Cron Task <br>
+`sudo /etc/init.d/cron restart`
+
+Now Satis Build would be automated !!
+
