@@ -53,7 +53,7 @@ I like PHP, Java, Node.js too. These higher level languages also give a good abs
 The abstraction provided all the above mentioned languages/tools are neat and good.<br>
 
 But Not AngularJS.<br>
-I feel, I can ready assembly language more easily than AngularJS code.<br>
+I feel, I can read assembly language more easily than AngularJS code.<br>
 
 <b> Language syntax</b><br>
 In all the previous languages/framworks that I have worked on, the syntax is very natural.<br>
