@@ -111,7 +111,7 @@ I am putting diving into Node.js source on Hold.
 
 I am going for AngularJS. I am going to ready possibly every line in its source.<br>
 I am going to F***ing master the inner workings of it.
-Beacuse, without that, I will go insane.
+Because, without that, I will go insane.
 
 And I cannot confidently talk or have a discssuion with my angular peers if I dont understand the magic behind it.
 
