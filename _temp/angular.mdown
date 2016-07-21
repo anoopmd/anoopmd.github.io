@@ -1,0 +1,15 @@
+
+
+I am kind of confused on how much time spend on mastering Angular 1.x series.
+Now since Angular has come up with version 2.x, I am very much sure that Angular 1.x
+is going to become obselete sooner or later
+
+So lets take 2 cases
+CASE 1: Current Scenario. Angular 2.x is totally backwards compatible.
+
+CASE 2: Angular team decides to do a complete rewrite and the name it as Awesome framework
+This is much better. Angular 1.x will live much longer and it will be up to the devs when to abandon it.
+
+This is where I love Backbone. They had a solid philosophy. They sticked to it even when
+more powerful and full fledged came up. It as introduced in 2009. And it was a de facto standard
+in 
