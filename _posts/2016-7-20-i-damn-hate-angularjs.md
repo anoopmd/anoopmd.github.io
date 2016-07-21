@@ -68,8 +68,8 @@ In the above languages, the names used are very much the language that we can cl
 
 <b>
 But then I have AngularJS.<br>
-Providers, Factories, Services (All these are closely linked), And Directives <br>
-Damn. Damn. Damn.
+Providers, Factories, Services (All these 3 are closely linked), And Directives <br>
+Damn. Damn. Damn. I don't like the syntax.
 </b><br>
 
 I just have to type some jargon in html and hope it works. Damn.<br>
