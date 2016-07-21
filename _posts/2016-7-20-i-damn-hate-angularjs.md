@@ -80,8 +80,8 @@ I love the magic of Docker, I love the magic of Vagrant, I love the magic of V8.
 <b>But I hate the magic of AngularJS.</b>
 
 I am sure that the guys who built AngularJS are really really smart.<br>
-They build an awesome framework which is best for Rapid App Prototyping and Development.
-They also suit the need of Enterprise, Rich UI apps.<br>
+They built an awesome framework which is best for Rapid App Prototyping and Development.
+Angular also suits the need of Enterprise, Rich UI apps.<br>
 In my opinion, Its just that their taste in developing the api syntax is bad.
 
 But I am at least relieved that, at the end, it is Javascript.<br>
