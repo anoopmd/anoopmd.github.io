@@ -72,7 +72,10 @@ Providers, Factories, Services (All these 3 are closely linked), And Directives 
 Damn. Damn. Damn. I don't like the syntax.
 </b><br>
 
-I just have to type some jargon in html and hope it works. Damn.<br>
+Many Angular devs might think that, Factory returns new Instances everytime.<br>
+Look Again. [Stackoverflow](http://stackoverflow.com/questions/13762228/confused-about-service-vs-factory), [Codepen](http://codepen.io/anoop_md/pen/mExEGx?editors=1111)
+
+Angular bootstrap directives, I just have to type some jargon in html and hope it works. Damn.<br>
 (I am not talking about ng-model OR ng-repeat, I am talking about complex directives)<br>
 I hate magic which annoys and pisses me.
 
