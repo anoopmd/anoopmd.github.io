@@ -107,7 +107,7 @@ But Now, I have sleepless nights.
 
 I am putting solving Math and Number theory on hold.<br>
 I am putting playing with Docker on Hold<br>
-I am diving into Node.js source on Hold.
+I am putting diving into Node.js source on Hold.
 
 I am going for AngularJS. I am going to ready possibly every line in its source.<br>
 I am going to F***ing master the inner workings of it.
