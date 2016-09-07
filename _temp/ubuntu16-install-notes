@@ -1,0 +1,22 @@
+## Installing Sublime Text 3
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+## Installing Cisco VPM Openconnect
+sudo apt-get install network-manager-vpnc
+sudo apt-get install network-manager-openconnect network-manager-vpnc-gnome
+
+## Install Google Chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt-get install libxss1 libgconf2-4 libappindicator1 libindicator7
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+## Install Git
+sudo apt-get install git
+
+## Install Nodejs
+sudo apt install nodejs
+
+
+
