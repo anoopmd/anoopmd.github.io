@@ -1,0 +1,21 @@
+Rox Term Tips and Tricks
+
+### Open Command
+Ctrl + Alt + T
+
+### Set Title Shortcut command
+Create a function in ~/.bashrc
+
+```bash
+function set-title() {
+  if [[ -z "$ORIG" ]]; then
+    ORIG=$PS1
+  fi
+  TITLE="\[\e]2;$*\a\]"
+  PS1=${ORIG}${TITLE}
+}
+```bash
+
+source .bashrc
+
+set-title "API Tests"

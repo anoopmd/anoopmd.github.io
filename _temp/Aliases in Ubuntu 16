@@ -1,0 +1,30 @@
+Aliases in Ubuntu 16
+
+One of the most common commands that I use is git status and git diff.
+It would be nice to have aliases for them like gs and gd
+Lets add the aliases then.
+
+## You must have this in your ~/.nashrc file
+
+
+```bash
+# Alias definitions.
+# You may want to put all your additions into a separate file like
+# ~/.bash_aliases, instead of adding them here directly.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+```
+
+## Lets create a file ~/.bash_aliases
+```bash
+alias gs='git status';
+alias gd='git diff';
+```
+
+## Source your bash script
+```bash
+source ~/.bashrc
+```
