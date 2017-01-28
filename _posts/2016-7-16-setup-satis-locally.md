@@ -15,6 +15,7 @@ Navigate to the below dir<br>
 
 Install Satis via Composer<br>
 `composer create-project composer/satis --stability=dev --keep-vcs`
+`composer create-project composer/satis=1.0.0-alpha2 --stability=dev --keep-vcs`
 
 Configure Satis<br>
 /usr/share/nginx/satis.json
@@ -36,6 +37,9 @@ Configure Satis<br>
 
 ## Build Satis<br>
 `php bin/satis build satis.json html/`
+
+You might be asked to generate a token, in which case you will be given a link to generate a token.
+This will be stored in /.composer/auth.json for future use by Composer.
 
 Now Open 127.0.0.1 in your browser
 
