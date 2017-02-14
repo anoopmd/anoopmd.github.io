@@ -35,8 +35,10 @@ Just try eslint. Thank me later.
 <b>3. Extensibilty</b>
 
 I know that you could extend stuff in jshint, but not sure if the below feature exists.
-In eslint you could add the google's node eslint config (https://github.com/google/eslint-config-google) style guide as a dependency in your package.json
-and then extend it in you eslint.rc I dont think you could do that in jshint. I may be wrong though.
+In eslint you could add the [google's node eslint config](https://github.com/google/eslint-config-google) style guide as a dependency in your package.json
+and then extend it in you eslint.rc
+
+I dont think you could do that in jshint. I may be wrong though.
 
 <b>4. Because software is an art</b>
 
@@ -46,7 +48,7 @@ How can code be beautiful? Well, its beautiful if you genuinely feel respect tow
 
 I can attest for myself that eslint helped me more than jshint in ensuring that my code was beautiful.
 
-For example every function in the enitre codebase has a single space between the closing paranthesis of the argument list and the opening paranthesis of the function body.
+For example, every function in the enitre codebase has a single space between the closing paranthesis of the argument list and the opening paranthesis of the function body.
 
 I cannot attest for you, You need to go and find it yourself.
 
@@ -58,7 +60,7 @@ Again, I am not sure, but it seems eslint has much better support and style chec
 
 This is my intuition. I do not have time to check whether jshint is really better than eslint at ES6 error and style checks. I am a ES6 amateur BTW.
 
-(Not to sound like an egoistical asshole here, but most of the times my intuition is right, and when it is wrong I do apologize and correct myself instead of taking a defensive stand to prove my own point)
+<i>(Not to sound like an egoistical asshole here, but most of the times my intuition is right, and when it is wrong I do apologize and correct myself instead of taking a defensive stand to prove my own point)</i>
 
 Last but not least, go checkout the github stars and npm downloads per month.
 
@@ -66,12 +68,13 @@ I agree that these stats are do not guarantee the number of people who are using
 
 (I agree that jshint has more stars, but its been there for long time and eslint has traction)
 
-To end this blog,
-
+<b>Some final thoughts</b><br>
 There are a lot of existing projects using jshint. I do not advice to make the move to eslint instantly.
 
 I am not a fan of switching technlogies when you come across a new fancy tool.
 
 It would be better to first try it out, weigh the pros and cons of migration and then proceed.
 
+<br>
+<br>
 Thanks for reading. Good day!
