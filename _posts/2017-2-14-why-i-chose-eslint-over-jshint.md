@@ -3,6 +3,8 @@ layout: post
 title: Why I chose eslint over jshint
 ---
 
+> May God save your codebase if you are not using a linting tool in your JS project. - Anoop
+
 It all began when I wanted to add a rule in jshint which would throw an error upon encountering trailing whitespaces.
 
 So I googled it which led me to this [SO Link](http://stackoverflow.com/questions/23767225/what-should-i-do-about-trailing-whitespace-in-jshint-2-5-0) which stated that this functionality has been removed from Jshint and that [Jscs](https://github.com/jscs-dev/node-jscs) is a better tool for this.
