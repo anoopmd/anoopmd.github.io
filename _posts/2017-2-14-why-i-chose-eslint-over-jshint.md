@@ -3,7 +3,7 @@ layout: post
 title: Why I chose eslint over jshint
 ---
 
-> May God save your codebase if you are not using a linting tool in your JS project. - Anoop
+> May God save your codebase if you are not using a linting tool in your JS project.
 
 It all began when I wanted to add a rule in jshint which would throw an error upon encountering trailing whitespaces.
 
