@@ -22,6 +22,7 @@ fi
 ```bash
 alias gs='git status';
 alias gd='git diff';
+alias gpm='git push origin master';
 ```
 
 ## Source your bash script

@@ -95,10 +95,10 @@ rvm use 2.3.1 --default
 ## Installing Compass
 gem install compass
 
+## Alternate way of Installing Ruby if the above version fails
+sudo apt install ruby
+sudo apt install ruby-compass
 
-## Installing Teamviewer
-sudo apt-get update
-sudo apt-get dist-upgrade
 
 ## Installing VLC
 sudo add-apt-repository ppa:videolan/master-daily
