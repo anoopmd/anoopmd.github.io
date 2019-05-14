@@ -1,0 +1,6 @@
+## Installing Vim
+sudo apt-get install vim
+
+## NodeJS
+sudo apt install nodejs
+sudo apt install npm
